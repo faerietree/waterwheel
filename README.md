@@ -6,6 +6,7 @@ A low head, low flow, energy harvesting machine.
 Design
 ---
 ### Mechanic
+<img src="waterwheel_with_mount_steel_and_sheet_plexiglas.jpg" alt="" title="" />
 <img src="waterwheel.gif" alt="" title="" />
 
 * The materials are chosen arbitrarily. Whatever you have available. The heavier the material the more problematic the bearings and middle axis will become.
