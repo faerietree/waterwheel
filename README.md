@@ -1,10 +1,9 @@
-
-Energy through (water) flow.
+Waterwheel
 ===
-A low head, low flow, energy harvesting machine.
 
 Design
 ---
+
 ### Mechanic
 <img src="waterwheel_with_mount_steel_and_sheet_plexiglas.jpg" alt="" title="" />
 <img src="waterwheel.gif" alt="" title="" />
@@ -20,23 +19,6 @@ The underflow is purely kinetic, while overflow (pitch-back) uses the kinetic en
 #### Stress analysis
 A stress analysis for common materials: wood, plexiglas, cheap plastic, metal (steel), aluminium.
 <img src="waterwheel_stress_analysis.jpg" alt="(missing)" title="" />
-
-### Electric
-* Asynchronous Induction Motor (one of the most widespread kinds of motor).
-* Driven as generator (1..6% over synchronous rotations per minute rating).
-* Grid-tied => no self-excitation (capacitors) or controller needed.
-* Attached to the axle depending on the generator type: If low Kv/RPM, then the transmission ratio can be decreased, potentially decreasing losses. For common induction motors as generator the transmission ratio will be quite big for run-of-the-stream systems.
-
-
-Generator 3phase -> 1phase: If the way from the stream to the electric loads is long, consider using the 3 phase machine as 1 phase (which will double line-to-line voltage, info is in the web). This way one transformer only at the consumer side is enough. The loss formulas will be integrated in the open ecological engineering document when we have time. Then it's easier to see when it's worth it and when not. Best is to not at all use transformers (if losses are low enough due to short connection or multiple wires soldered together -- in AC, thick wires won't help due to skin effect!).
-
-Off-grid systems may prefer using permanent magnet generators. Otherwise self-excitation capacitors need installation across the generator windings. A controller will be necessary in off-grid systems if the power source (flow of water) or the load power demand vary a lot. Otherwise voltage and rotation of the motor will change, thus the induction generator may lose more and more torque. Excitation current frequency must be increased, or a load controller be used to stabilize voltage and generator rpm.
-
-There is an ELC design in the works. The situation currently just not allows to further develop it. It's not a lost case, yet, but as here we have grid-tied connection, it's a lot easier, as reactive power can be drawn from the giant (~infinite) electrical grid. Probably a basic ELC will be installed nevertheless. Though it'll not be the PWM one, that is in development. The chokes alone cost hundreds, it's not worth it for low power (pico) systems like this project (about 100..1000W)!
-
-Prototype
----
-(missing)
 
 
 Why a waterwheel design?
@@ -60,9 +42,4 @@ A helix might have improved the overall sitation. It's just not possible to manu
 Therefore the last hope lay in a waterwheel. Turns out it does have a chance to extract up to 80% of the energy of the water if the design is lucky.
 
 
-Goals
----
-
-* A green, ecological world. Environment friendly.
-* Improve living standard of the world. => Less pain. Terrorists also might have a potentially more difficult life recruiting poor people if they know we care for them (open technology, for a better world).
 
