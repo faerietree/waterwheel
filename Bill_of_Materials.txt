@@ -1,103 +1,95 @@
-   #	Label                          		Material       		Dimensions
-   -	------                         		---------      		----------
+   #	Label                         	Material       			Dimensions
+   -	-----                         	---------      			----------
 
- 48x 	Sheet                         	Material: water         	[0.4m x 0.6m x 0.0m]
- 80x 	Bolt                          	Material: painted metal 	[0.0m x 0.0m x 0.1m]
-  4x 	Beam_Rectangle                	Material: silver        	[0.1m x 1.7m x 0.1m]
-  1x 	Beam_cylindrical        		Material: copper_tarnish	[0.1m x 0.1m x 1.6m]
-160x 	Nut                           	Material: painted metal 	[0.0m x 0.0m x 0.0m]
-  2x 	Beam_cylindrical_bearing		Material: gold          	[0.1m x 0.1m x 0.1m]
- 80x 	Bucket                        	Material: gold          	[0.2m x 1.0m x 0.0m]
- 10x 	Beam_Rectangle          		Material: silver        	[0.1m x 1.7m x 0.1m]
+   2x 	Beam_cylindrical_bearing      	Material: gold          	[0.078m x 0.078m x 0.125m]
+ 160x 	Nut                           	Material: painted metal 	[0.022m x 0.019m x 0.01m]
+   1x 	Beam_cylindrical              	Material: copper_tarnish	[0.057m x 0.057m x 1.6m]
+  80x 	Sheet                         	Material: gold          	[0.167m x 1.0m x 0.02m]
+  80x 	Bolt                          	Material: painted metal 	[0.022m x 0.019m x 0.068m]
+  14x 	Beam_Rectangle                	Material: silver        	[0.075m x 1.7m x 0.075m]
+  49x 	Sheet                         	Material: water         	[0.4m x 0.56m x 0.02m]
 
 
 ======= ASSEMBLIES: ======
 --------------
- 16x 	Blade                         	Material: water         	[0.7m x 1.1m x 0.7m]:
+   2x 	Bearing                       	Material: gold          	[0.078m x 0.078m x 0.125m]:
 -------
- 16x 	Sheet                         	Material: water         	[0.4m x 0.6m x 0.0m]
- 32x 	Sheet_Bucket_Side             	Material: -             	[0.4m x 0.6m x 0.1m]
- 80x 	Sheet_for_Bucket_construction 	Material: gold          	[0.2m x 1.0m x 0.0m]
+   1x 	Beam_cylindrical_bearing      	Material: gold          	[0.078m x 0.078m x 0.125m]
 --------------
 
 
 --------------
- 80x 	Bolt_Sheet_To_Sheet_Connection	Material: painted metal 	[0.0m x 0.0m x 0.1m]:
+  32x 	Sheet_Bucket_Side             	Material: -             	[0.4m x 0.56m x 0.068m]:
 -------
-160x 	Nut                           	Material: painted metal 	[0.0m x 0.0m x 0.0m]
- 80x 	Bolt                          	Material: painted metal 	[0.0m x 0.0m x 0.1m]
+   1x 	Sheet_Bucket_Side_Bolted      	Material: water         	[0.4m x 0.56m x 0.02m]
+   2x 	Bolt_Sheet_To_Sheet_Connection	Material: painted metal 	[0.022m x 0.019m x 0.068m]
 --------------
 
 
 --------------
-  1x 	Axle                    	Material: copper_tarnish	[0.1m x 0.1m x 1.6m]:
+  10x 	Beam                          	Material: silver        	[0.075m x 1.7m x 0.075m]:
 -------
-  1x 	Beam_cylindrical        	Material: copper_tarnish	[0.1m x 0.1m x 1.6m]
+   1x 	Beam_Rectangle                	Material: silver        	[0.075m x 1.7m x 0.075m]
 --------------
 
 
 --------------
-  2x 	Bearing                 	Material: gold          	[0.1m x 0.1m x 0.1m]:
+  80x 	Sheet_for_Bucket_construction 	Material: gold          	[0.167m x 1.0m x 0.02m]:
 -------
-  2x 	Beam_cylindrical_bearing	Material: gold          	[0.1m x 0.1m x 0.1m]
+   1x 	Sheet                         	Material: gold          	[0.167m x 1.0m x 0.02m]
 --------------
 
 
 --------------
- 32x 	Sheet_Bucket_Side_Bolted      	Material: water         	[0.4m x 0.6m x 0.0m]:
+   1x 	Axle                          	Material: copper_tarnish	[0.057m x 0.057m x 1.6m]:
 -------
- 32x 	Sheet                         	Material: water         	[0.4m x 0.6m x 0.0m]
+   1x 	Beam_cylindrical              	Material: copper_tarnish	[0.057m x 0.057m x 1.6m]
 --------------
 
 
 --------------
- 11x 	Beam                    	Material: silver        	[0.1m x 1.7m x 0.1m]:
+  16x 	Blade                         	Material: water         	[0.732m x 1.128m x 0.696m]:
 -------
- 10x 	Beam_Rectangle          	Material: silver        	[0.1m x 1.7m x 0.1m]
+   5x 	Sheet_for_Bucket_construction 	Material: gold          	[0.167m x 1.0m x 0.02m]
+   2x 	Sheet_Bucket_Side             	Material: -             	[0.4m x 0.56m x 0.068m]
+   1x 	Sheet                         	Material: water         	[0.4m x 0.56m x 0.02m]
 --------------
 
 
 --------------
- 80x 	Sheet_for_Bucket_construction 	Material: gold          	[0.2m x 1.0m x 0.0m]:
+  32x 	Sheet_Bucket_Side_Bolted      	Material: water         	[0.4m x 0.56m x 0.02m]:
 -------
- 80x 	Bucket                        	Material: gold          	[0.2m x 1.0m x 0.0m]
+   1x 	Sheet                         	Material: water         	[0.4m x 0.56m x 0.02m]
 --------------
 
 
 --------------
-  1x 	Side_Cross              	Material: -             	[1.7m x 1.7m x 0.2m]:
+   2x 	Side_Cross                    	Material: -             	[1.7m x 1.7m x 0.175m]:
 -------
-  1x 	Beam                    	Material: silver        	[0.1m x 1.7m x 0.1m]
+   2x 	Beam                          	Material: silver        	[0.075m x 1.7m x 0.119m]
 --------------
 
 
 --------------
-  2x 	Holder                  	Material: -             	[3.5m x 1.4m x 1.7m]:
+   2x 	Holder                        	Material: -             	[3.48m x 1.377m x 1.7m]:
 -------
-  2x 	Bearing                 	Material: gold          	[0.1m x 0.1m x 0.1m]
- 10x 	Beam                    	Material: silver        	[0.1m x 1.7m x 0.1m]
+   1x 	Bearing                       	Material: gold          	[0.078m x 0.078m x 0.125m]
+   5x 	Beam                          	Material: silver        	[0.075m x 1.7m x 0.075m]
 --------------
 
 
 --------------
- 32x 	Sheet_Bucket_Side             	Material: -             	[0.4m x 0.6m x 0.1m]:
+  80x 	Bolt_Sheet_To_Sheet_Connection	Material: painted metal 	[0.022m x 0.019m x 0.068m]:
 -------
- 32x 	Sheet_Bucket_Side_Bolted      	Material: water         	[0.4m x 0.6m x 0.0m]
- 64x 	Bolt_Sheet_To_Sheet_Connection	Material: painted metal 	[0.0m x 0.0m x 0.1m]
+   1x 	Bolt                          	Material: painted metal 	[0.022m x 0.019m x 0.068m]
+   2x 	Nut                           	Material: painted metal 	[0.022m x 0.019m x 0.01m]
 --------------
 
 
 --------------
-  1x 	Side_Cross                    	Material: -             	[1.7m x 1.7m x 0.2m]:
+   4x 	Beam                          	Material: silver        	[0.075m x 1.7m x 0.119m]:
 -------
-  3x 	Beam                          	Material: silver        	[0.1m x 1.7m x 0.1m]
---------------
-
-
---------------
-  3x 	Beam                          	Material: silver        	[0.1m x 1.7m x 0.1m]:
--------
-  4x 	Beam_Rectangle                	Material: silver        	[0.1m x 1.7m x 0.1m]
- 16x 	Bolt_Sheet_To_Sheet_Connection	Material: painted metal 	[0.0m x 0.0m x 0.1m]
+   1x 	Beam_Rectangle                	Material: silver        	[0.075m x 1.7m x 0.075m]
+   4x 	Bolt_Sheet_To_Sheet_Connection	Material: painted metal 	[0.022m x 0.019m x 0.068m]
 --------------
 
