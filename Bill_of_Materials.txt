@@ -3,7 +3,7 @@
 
  32x 	Sheet                         	Material: water          	[50.0cm x 50.0cm x 4.0mm]
  16x 	Bolt                          	Material: painted metal  	[2.194cm x 1.9cm x 6.842cm]
- 17x 	Beam_Rectangle                	Material: silver         	[7.5cm x 1.7m x 7.5cm]
+ 16x 	Beam_Rectangle                	Material: silver         	[7.5cm x 1.7m x 7.5cm]
   1x 	Beam_cylindrical              	Material: ice            	[5.706cm x 5.706cm x 1.6m]
  32x 	Nut                           	Material: painted metal  	[2.194cm x 1.9cm x 1.05cm]
  16x 	Sheet                         	Material: gold           	[16.667cm x 1.0m x 4.0mm]
